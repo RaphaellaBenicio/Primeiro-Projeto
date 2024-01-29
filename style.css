@@ -173,31 +173,31 @@ footer {
 }
 
 /*media queries*/
-@media (min-width: 700px){
+@media (min-width: 700px) {
   :root {
     --bg-url: url(./assets/Bg-desktop.png);
   }
 
   .light {
-    --bg-url: url(./assets/Bgdesktoplight.png);
+    --bg-url: url(./assets/Bg-desktoplight.png);
   }
 }
 
 /*animation */
 @keyframes slide-in {
-from {
-  left: 0;
-}  
-to {
-  left: 50%;
-}
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
 }
 
 @keyframes slide-back {
-from {
-  left: 50%;
-}
-to {
-  left: 0;
-}
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
 }
